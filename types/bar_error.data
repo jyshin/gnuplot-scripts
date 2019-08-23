@@ -1,0 +1,15 @@
+#seq	latency		stdev
+"test title 1"
+1	100	15
+2	200	35
+3	500	25
+
+
+"test title 2"
+4	400	10	
+5	50	20
+
+
+"test title 3"
+6	150	50	
+7	200	10	
