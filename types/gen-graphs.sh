@@ -4,6 +4,7 @@ gnuplot -e "fin='./linespoint.data';" -e "fout='./linespoint.ps';" -e "args='lin
 gnuplot -e "fin='./cdf_1.data';" -e "fout='./cdf_1.ps';" -e "args='cdf_args.gnu'" -e "xtitle='Value'" -e "ytitle='CDF'" cdf_1.gnu
 gnuplot -e "fin='./cdf_2.data';" -e "fout='./cdf_2.ps';" -e "args='cdf_args.gnu'" -e "xtitle='Value'" -e "ytitle='CDF'" cdf_2.gnu
 gnuplot -e "fin='./filledcurve.data';" -e "fout='./filledcurve.ps';" -e "args='filledcurve_args.gnu'" filledcurve.gnu
+gnuplot -e "fin='./row_stack_histogram.data';" -e "fout='./row_stack_histogram.ps';" -e "args='row_stack_histogram_args.gnu'" -e "xtitle='Storage size (TB)'" -e "ytitle='Cost (USD)'" -e "height='2in'" row_stack_histogram.gnu
 eps="ps"
 pdf="pdf"
 for epsfile in $(ls ./*.ps)
